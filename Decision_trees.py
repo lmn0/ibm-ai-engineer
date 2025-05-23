@@ -85,18 +85,7 @@ tree_predictions = drugTree.predict(X_testset)
 print("Decision Trees's Accuracy: ", metrics.accuracy_score(y_testset, tree_predictions))# your code here
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#Author
+#Abishek Gagneja
+#Other Contributors
+#Jeff Grossman
