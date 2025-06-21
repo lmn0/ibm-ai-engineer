@@ -1,4 +1,4 @@
-Creating a Tensor Flow cluster
+# Creating a Tensor Flow cluster
 
 Setting up a local TensorFlow cluster, particularly for parameter server training, involves configuring multiple TensorFlow servers to act as workers and parameter servers. This setup allows for distributed training of models. 
 
