@@ -6,7 +6,9 @@ Setting up a local TensorFlow cluster, particularly for parameter server trainin
 Each TensorFlow server needs to know the addresses and roles of other servers in the cluster. This is typically defined using a tf.train.ClusterSpec object. The specification includes: 
 
 • Workers: Tasks responsible for executing the training steps (e.g., worker_0, worker_1). 
+
 • Parameter Servers (ps): Tasks responsible for storing and updating model parameters (e.g., ps_0, ps_1). 
+
 • Chief (Coordinator): The task that orchestrates the training process, often one of the workers designated as the chief. 
 
 Example Cluster Specification:
